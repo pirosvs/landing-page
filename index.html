@@ -1,35 +1,46 @@
 <!DOCTYPE html>
-<hmtl lang="en">
+<hmtl lang="en-us">
 
     <head>
-        <meta charset="UTF 8">
+        <meta charset="UTF-8"/>
         <link rel="stylesheet" href="./style.css">
         <title>Dam Daniel Dentistry</title>
     </head>
 
+    <body>
     <header>
         <h1>Dam Daniel Dentistry</h1>
 
         <nav>
             <ul>
-                <li><a href="">About us></a></li>
+                <li><a href="">About us</a></li>
                 <li><a href="">Information</a></li>
-                <!-- Must jump to contact form, fix -->
-                <li><a href="">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
     </header>
 
     <section>
+        <div class="ghostheader"></div>
+
         <figure>
-            <!-- <img src=""> -->
+            <img src="https://images.unsplash.com/photo-1606811842243-af7e16970c1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"m class="center">
             <figcaption>Teeth being cleaned</figcaption>    
         </figure>
+
+        <form id="contact" class="box">
+            <label for="fname">Full name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="lname" value=""><br><br>
+            <input type="submit" value="Send">
+        </form>
+
     </section>
 
     <footer>
         <p>No copyright this is an example site cannot be contacted/ business does not actually exist c:</p>
     </footer>
 
+    </body>
 </hmtl>
